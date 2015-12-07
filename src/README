@@ -1,0 +1,43 @@
+Plawan Kumar Rath
+
+SInce we already knoe the file name, I have set it inside the code. To run the code you simply need to run the java file, no command line arguments are needed.
+
+I have used the DisjSets class given in the book and the Krushkals algorithm given in the book. I have used PriorityQueue class provided in java.
+I have written a custom Comparator to compare the objects of Edge class based on edge weights (distances).
+
+
+How to Compile and run:
+
+javac *.java
+java Krushkals
+
+A sample output after running the code is given below:
+
+Plawans-MacBook-Pro:src plawanrath$ javac *.java
+
+Plawans-MacBook-Pro:src plawanrath$ java Krushkals
+The minimum cost spanning tree will contain the following edges
+
+Longview------Tyler = 38
+Brownsville------McAllen = 60
+Killeen------Waco = 63
+Austin------Killeen = 68
+Austin------San Antonio = 80
+Bryan------Waco = 86
+Longview------Texarkana = 90
+Abilene------San Angelo = 90
+Dallas------Tyler = 95
+Bryan------Houston = 100
+Midland------San Angelo = 112
+Lubbock------Midland = 118
+Amarillo------Lubbock = 123
+Tyler------Waco = 132
+Abilene------Wichita Falls = 142
+Dallas------Wichita Falls = 142
+Corpus Christi------Laredo = 143
+Corpus Christi------San Antonio = 143
+Laredo------McAllen = 144
+El Paso------Midland = 305
+
+The total cost of the MST is 2274
+
